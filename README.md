@@ -1,2 +1,2 @@
 # house_hunter
- Sistema de gestión de un hotel
+ Sistema de gestión de un hotel (proyecto educativo)
