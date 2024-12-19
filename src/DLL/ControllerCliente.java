@@ -84,7 +84,6 @@ public class ControllerCliente {
     // Método para eliminar un cliente de la base de datos por su ID
     public static void eliminarCliente(int id) {
         try {
-        	JOptionPane.showMessageDialog(null, id);
             PreparedStatement statement = con.prepareStatement("DELETE FROM `cliente` WHERE id_cliente = ?");
             statement.setInt(1, id);
             int filas = statement.executeUpdate();

@@ -149,7 +149,7 @@ public class PantallaCliente extends JFrame {
 					JOptionPane.showMessageDialog(null, "No hay cliente seleccionado!");
 				} else {
 					Cliente cliente = getCliente(row);
-					int confirmacion = JOptionPane.showConfirmDialog(null, "Queres eliminar el cliente " + cliente.toString()+" ?");
+					int confirmacion = JOptionPane.showConfirmDialog(null, "Quiere eliminar el cliente " + cliente.toString()+" ?");
 					if (confirmacion == 0) {
 						ControllerCliente.eliminarCliente(cliente.getId());
 						actualizarTabla();

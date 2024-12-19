@@ -76,7 +76,7 @@ public class PantallaLogin extends JFrame {
                     Empleado empleado = Empleado.Login(correo, contrasena);
 
                     if (empleado != null) {
-                        JOptionPane.showMessageDialog(null, "Inicio de sesión exitoso: " + empleado.getNombre());
+                        //JOptionPane.showMessageDialog(null, "Inicio de sesión exitoso: " + empleado.getNombre());
                         dispose(); // Cierra la ventana de login
                         // Redirige a la pantalla principal de administración
                         PantallaInicioAdmin pantallaAdmin = new PantallaInicioAdmin();
